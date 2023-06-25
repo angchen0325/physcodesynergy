@@ -94,7 +94,7 @@ To export the dependencies used in `yourenv` to a `requirements.txt` file, you c
 ```console
 pip3 freeze > requirements.txt
 ```
-If you want transfer `yourenv` to your code collaborators, just send them the `requirements.txt` file and tell them to use the command:
+If you want to transfer `yourenv` to your code collaborators, just send them the `requirements.txt` file and tell them to use the command:
 ```console
 pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
