@@ -82,7 +82,7 @@ or
 ```console
 (yourenv) $ pip3 install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
-The option `-i` is used to specify the index source from where the package will be installed. By default, `pip3` downloads packages from the Python Package Index (PyPI). Then you can see
+The option `-i` is used to specify the index source from where the package will be installed. Here we can use the index source from [tuna](https://mirrors.tuna.tsinghua.edu.cn), Tsinghua University open source software mirror. By default, `pip3` downloads packages from the [Python Package Index](https://pypi.org) (PyPI). Then you can see
 ```console
 Package     Version
 ----------  -------
