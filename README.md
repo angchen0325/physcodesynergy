@@ -4,7 +4,7 @@
 
 `Physics` and `Coding` are two interconnected fields that often complement each other, particularly in scientific and technological advancements. Coding empowers physicists to tackle complex problems, analyze data, develop simulations, and advance our understanding of the physical world. The combination of physics and coding enables groundbreaking research, technological innovations, and the development of new scientific methodologies.
 
-<img src=./figs/fractal.jpg align="middle" title="logo">
+<img src=./figs/fractal.jpg align="middle" title="physics and coding synergy">
 
 ## Contents
 
