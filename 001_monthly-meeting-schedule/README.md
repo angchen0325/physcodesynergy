@@ -98,3 +98,17 @@ If you want to transfer `yourenv` to your code collaborators, just send them the
 ```console
 pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
+
+#### 001.3.4 Select python interpreter
+We recommend [VScode](https://code.visualstudio.com) as our coding editor. We usually deal with two kinds of python files: `.py` file and `.ipynb` file. 
+
+When opening a `.py` file, you can
+* Enter `shift`+`control`+`P` to open `Command Palette` 
+* Click `Python: Select Interpreter` and then `+ Enter interpreter path...`
+* Imput `[python3 path of yourenv]`
+
+Then you can enter the button &#x25B6; and run the `.py` file.
+After doing so, you can open a `.ipynb` file, and
+* Click `Select Kernel` 
+* Select `Select Another Kernel...` and `Python Environments...`
+* Choose `yourenv`
