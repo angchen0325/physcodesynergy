@@ -112,3 +112,5 @@ After doing so, you can open a `.ipynb` file, and
 * Click `Select Kernel` 
 * Select `Select Another Kernel...` and `Python Environments...`
 * Choose `yourenv`
+
+Here we can test `print_hello.py` and `print_hello.ipynb`.
