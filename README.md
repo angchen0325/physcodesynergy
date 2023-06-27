@@ -8,7 +8,7 @@
 
 ## Contents
 
-<a href="./001_monthly-meeting-schedule/README.md" alt="Please see the link for details">🔗 001. Monthly meeting schedule (2023-06-23)</a>
+<a href="./001_monthly-meeting-schedule/README.md" alt="Please see the link for details">&#x1F517; 001. Monthly meeting schedule (2023-06-23)</a>
 
-<a href="./002_energy-bands-of-silicon/README.md" alt="Please see the link for details">🔗 002. Energy bands of silicon (2023-xx-xx)</a>
+<a href="./002_energy-bands-of-silicon/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands of silicon (2023-xx-xx)</a>
 
