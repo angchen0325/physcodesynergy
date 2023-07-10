@@ -6,7 +6,18 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 3. In the first six months, the meetings will primarily cover the fundamentals of physics as the gold mine, teaching participants to use tools like `python` as shovels. After six months, we will progress to using advanced shovels: `python` + `artificial intelligence (AI)`.
 
 ### 001.1 Terminals
-To be novice friendly, here we digress a little to talk about the terminals on three different platforms. MacOS and Linux quite similar terminals, different from that of Windows. For Windows, we recommend `powershell` instead of `cmd` since it has a similar instruction set as MacOS/Linux. When using VScode, all those terminals can be integrated.
+To be novice friendly, here we digress a little to talk about the terminals on three different platforms:
+* For MacOS and Linux, we can both use their default terminals. 
+* For Windows, we recommend [`git bash`](https://git-scm.com/download/win), which can be added into the default terminals.
+
+<img src=./figs/git_bash_download.jpg align="middle" title="git bash">
+
+During installation, select `Add a Git Bash Profile to Windows Terminal`; then you can use `git bash` in Windows terminal.
+
+#### 001.1.1 Zsh
+Next we go to a very advanced and programmable command interpreter (shell) for UNIX: `zsh`
+
+
 
 ### 001.2 Python installation
 Here we talk about how to install `python3` on Windows. 
