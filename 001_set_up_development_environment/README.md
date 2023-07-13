@@ -1,9 +1,7 @@
-## 001. Monthly meeting schedule (2023-06-23)
+Date: 06-23-2023 | Author: Ang Chen
 
-To fully exploit physics and coding synergy, we're going to have a monthly meeting schedule:
-1. Approximately once a month, the specific meeting time will be confirmed three days in advance.
-2. The focus of the meetings will be on programming as a tool to solve specific research-related problems: Programming is likened to a shovel, while research is the gold mine.
-3. In the first six months, the meetings will primarily cover the fundamentals of physics as the gold mine, teaching participants to use tools like `python` as shovels. After six months, we will progress to using advanced shovels: `python` + `artificial intelligence (AI)`.
+# 001. Monthly meeting schedule
+
 
 ### 001.1 Terminals
 To be novice friendly, here we digress a little to talk about the terminals on three different platforms:
