@@ -3,7 +3,7 @@ Author: **Ang Chen** | Email: chenang@outlook.com | Date: 06-23-2023 | Online mo
 # Contents
 - [Contents](#contents)
 - [Set up development environment](#set-up-development-environment)
-  - [Terminal](#terminals)
+  - [Terminal](#terminal)
     - [Git Bash](#git-bash)
     - [Zsh](#zsh)
     - [Oh My Zsh](#oh-my-zsh)
