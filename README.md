@@ -14,7 +14,7 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 
 ## Contents
 
-<a href="./001_monthly-meeting-schedule/README.md" alt="Please see the link for details">&#x1F517; 001. Monthly meeting schedule (2023-06-23)</a>
+<a href="./001_set-up-development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Set up development environment (06-23-2023)</a>
 
-<a href="./002_energy-bands-of-silicon/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands of silicon (2023-xx-xx)</a>
+<a href="./002_energy-bands-of-silicon/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands of silicon (xx-xx-2023)</a>
 
