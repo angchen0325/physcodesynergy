@@ -1,4 +1,4 @@
-Author: **Ang Chen** | Email: chenang@outlook.com | Date: 06-23-2023 | Online monthly meeting @BIT
+Author: **Ang Chen** | Email: chenang@outlook.com | Date: 07-02-2023 | @Chongqing Univ.
 
 # Contents
 - [Contents](#contents)
@@ -68,7 +68,18 @@ or by `wget`
 ```bash
 sh -c "$(wget -O- https://gitee.com/pocmon/mirrors/raw/master/tools/install.sh)"
 ```
-After installation, the default theme used is "robbyrussell". You can modify the ZSH_THEME field in the `.zshrc` configuration file. Next, you need to install two plugins: `zsh-autosuggestions` and `zsh-syntax-highlighting`. The `zsh-autosuggestions` plugin allows you to find and highlight history commands that match your current input, and you can use the right arrow key to complete them directly. The `zsh-syntax-highlighting` plugin recognizes shell commands and highlights them.
+After installation, the default theme used is "robbyrussell". You can modify the ZSH_THEME field in the `.zshrc` configuration file. Next, you need to install two plugins: `zsh-autosuggestions` and `zsh-syntax-highlighting`:
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions 
+  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+and
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+The `zsh-autosuggestions` plugin allows you to find and highlight history commands that match your current input, and you can use the right arrow key to complete them directly. The `zsh-syntax-highlighting` plugin recognizes shell commands and highlights them.
 
 Then you can open `.zshrc` file by VScode, and fill in the following text near line 80:
 ```bash
