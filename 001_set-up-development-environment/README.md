@@ -1,4 +1,4 @@
-Author: **Ang Chen** | Email: chenang@outlook.com | Date: 07-02-2023 | @Chongqing Univ.
+Author: **Ang Chen** | Email: chenang@outlook.com | Date: 06-23-2023 | Online monthly meeting @BIT
 
 # Contents
 - [Contents](#contents)
