@@ -53,7 +53,7 @@ And then do the conversion again.
 
 ## Journey
 
-<a href="./001_development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Set up development environment (06-23-2023)</a>
+<a href="./001_development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Development environment (06-23-2023)</a>
 
 <a href="./002_energy-bands/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands (07-29-2023)</a>
 
