@@ -1,4 +1,4 @@
-[![Code style: yapf pep8](./figs/code_style_yapf.svg)](https://github.com/google/yapf)
+<!-- [![Code style: yapf pep8](./figs/code_style_yapf.svg)](https://github.com/google/yapf) -->
 
 # Physics and Coding Synergy 
 
@@ -12,7 +12,15 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 
 ![Physics and Coding Synergy: Here we use a picture of fractal to imply such ethereal synergy.](./figs/fractal.jpg "physics and coding synergy")
 
-## Contents
+## Documents
+```bash
+pandoc --pdf-engine=xelatex -s -V geometry:margin=1.05in --highlight-style breezedark 
+    README.md -o README.pdf
+```
+
+
+
+## Journey
 
 <a href="./001_set-up-development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Set up development environment (06-23-2023)</a>
 
