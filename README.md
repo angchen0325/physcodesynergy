@@ -14,7 +14,7 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 
 ## Documents
 
-In the folder and its subfolders, there will be various file formats, such as `md`, `py`, `ipynb`, and `pdf` files. Our reading order should be `md` files first, followed by `ipynb` or `py` files. We typically edit the first three file types, while `pdf` files are generated from `md` or `ipynb` files. 
+In the folder and its subfolders, there will be various file formats, such as `md`, `py`, `ipynb`, and `pdf` files. Our reading order should be `md` files first, followed by `ipynb` or `py` files. (Here all `md` files are named as `README`.) We typically edit the first three file types, while `pdf` files are generated from `md` or `ipynb` files. 
 To ensure smooth generation of PDF files, you need to install the following software or libraries beforehand:
 
 1. [Pandoc](https://pandoc.org/installing.html)
@@ -53,7 +53,7 @@ And then do the conversion again.
 
 ## Journey
 
-<a href="./001_set-up-development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Set up development environment (06-23-2023)</a>
+<a href="./001_development-environment/README.md" alt="Please see the link for details">&#x1F517; 001. Set up development environment (06-23-2023)</a>
 
 <a href="./002_energy-bands/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands (07-29-2023)</a>
 
