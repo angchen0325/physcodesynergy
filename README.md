@@ -17,7 +17,7 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 In the folder and its subfolders, there will be various file formats, such as `md`, `py`, `ipynb`, and `pdf` files. Our reading order should be `md` files first, followed by `ipynb` or `py` files. (Here all `md` files are named as `README`.) We typically edit the first three file types, while `pdf` files are generated from `md` or `ipynb` files. 
 To ensure smooth generation of PDF files, you need to install the following software or libraries beforehand:
 
-1. [Pandoc](https://pandoc.org/installing.html)
+1. [Pandoc, rsvg-convert (Windows), librsvg (MacOS)](https://pandoc.org/installing.html)
 2. [Tex Live](https://tug.org/texlive/)
 3. [Jupyter Notebook](https://jupyter.org/install)
 
