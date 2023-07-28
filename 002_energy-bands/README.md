@@ -13,7 +13,7 @@ Author: **Ang Chen** | Email: chenang@outlook.com | Date: 07-30-2023 | Online mo
 
 # Energy bands 
 
-Energy bands of a solid describe the range of energy levels that electrons may have within it, as well as the ranges of energy that they may not have (called band gaps or forbidden bands).
+Energy bands of a solid describe the range of energy levels that electrons may have within it, as well as the ranges of energy that they may not have (called band gaps or forbidden bands) [1].
 To derive those bands and band gaps, we need solve the Shr&ouml;dinger equation:
 
 $$\tag{1}
@@ -53,30 +53,59 @@ $$
 \tag{4b} \frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2 Y}{\partial \phi^2}\right] = -l(l+1).
 $$
 
+Solving Eqs. (4a) and (4b) leads to the hydrogen wave functions (see detail in Chap. 4 of [2]) with allowed energies
+
+$$\tag{5}
+E_n = -\left[\frac{m}{2\hbar^2}\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\right]\frac{1}{n^2}, \quad n=1,2,3,\ldots.
+$$
+
 
 ## Periodic potential
 
-![Physics and Coding Synergy: Here we use a picture of fractal to imply such ethereal synergy.](../figs/Brillouin_Zone.svg "physics and coding synergy")
+In the solid state, a few of the loosely bound outermost valence electrons in each atom become detached and roam around throughout the material, no longer subject only to the Coulomb field of a specific "parent" nucleus, but rather to the combined potential of the entire crystal lattice. And thus we have the Bloch's theory, which introduces a *periodic* potential representing the electrical attraction of the regularly spaced, positively charged, nuclei (still ignoring electron-electron
+repulsion): $V(\textbf{r}) = V(\textbf{r}+\textbf{R})$, giving the Bloch function as the solution to Eq. (2):
+
+$$\tag{6}
+\psi_\textbf{k}(\textbf{r}) = e^{i\textbf{k}\cdot\textbf{r}} u(\textbf{r}); \quad u(\textbf{r}+\textbf{R}) = u(\textbf{r}).
+$$
+
+Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, $\textbf{k}$ is the key point but also confusing. We digress somewhat to the famous theorem in informatics: Nyquist–Shannon sampling theorem.
 
 ### Nyquist–Shannon sampling theorem
 
-Here are two expressions of the Nyquist-Shannon sampling theorem to enhance everyone's understanding of the theorem:
+![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](./figs/nych_sampling.svg "Nyquist–Shannon sampling")
+
+Here is one expression of the Nyquist-Shannon sampling theorem [1] to enhance everyone's understanding of the theorem:
 
 **Theorem** — *If a function $x(t)$ contains no frequencies higher than $B$ hertz, then it can be completely determined from its ordinates at a sequence of points spaced less than $1/(2B)$ seconds apart.* 
 
-or 
-
-**Theorem** — *If a system uniformly samples an analog signal at a rate that exceeds the signal’s highest frequency by at least a factor of two, the original analog signal can be perfectly recovered from the discrete values produced by sampling.*
-
+Needless to say what. Figure 1 shows what the theorem tells. Left panel plots the original signal $y(t)$, which is a sinusoidal time series with frequency $f=5$ Hz, and the sampled signal $y_s(t)$ with different sampling rates. Right panel plots their corresponding FFT spectra. We can see that when the sampling rate $f_s$ is larger than twice the signal frequency $f$, the original signal can be completely determined from its sampled signal. Otherwise, the original signal cannot be recovered, with a phenomenon called *frequency aliasing*.
 
 ### Brillouin Zone
 
+Brillouin Zone (BZ) resides in reciprocal space and almost all the textbooks tell us that the first BZ matters above all. Let's see through it from Nyquist–Shannon sampling theorem. To simplify, we consider the Bloch wave of an electron in one dimension, and sampling happens in the space domain instead of time domain. Thus the sampling rate is decided by the lattice period: $k_s = 2\pi/a$, leading to the important relation for first BZ:
+$$\tag{7}
+k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
+$$ 
+
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k(0.8)_2k.gif "BZ waves")
+
 ## Silicon
+
+There are two basic methods for computing structures and properties of solids: 
+
+- The "ab initio" ("first principles").
+- The "(semi) empirical" methods. 
+
+The former do not include any empirically or experimentally derived quantities whereas the latter do.
+For calculating silicon energy bands, we adopt tight-binding (TB) method as an example of the latter. TB method is a semi-empirical method, whose basic idea of the tight-binding method is, that one writes the eigenstates of the Hamiltonian in an atomic-like basis set. Then one replaces the exact many-body Hamilton operator with a parameterized Hamilton matrix. For this reason, one commonly does not calculate the explicit form of the basis set. "Atomic-like" means that it has the same symmetry properties as the atomic orbitals.
+
+![Silicon](./figs/silicon_energy_bands.svg "silicon energy bands")
 
 ## Graphene
 
 
 # References
 
-1. https://www.wikipedia.org
+1. [https://www.wikipedia.org](https://www.wikipedia.org)
 2. David J. Griffiths. *Introduction to Quantum Mechnics*. Prentice Hall, NJ, 1995.
