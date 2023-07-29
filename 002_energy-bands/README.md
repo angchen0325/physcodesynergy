@@ -53,7 +53,7 @@ $$
 \tag{4b} \frac{1}{Y}\left[\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2 Y}{\partial \phi^2}\right] = -l(l+1).
 $$
 
-Solving Eqs. (4a) and (4b) leads to the hydrogen wave functions (see detail in Chap. 4 of [2]) with allowed energies
+Solving Eqs. (4a) and (4b) leads to the hydrogen wave functions (see detail in [2,3]) with allowed energies
 
 $$\tag{5}
 E_n = -\left[\frac{m}{2\hbar^2}\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\right]\frac{1}{n^2}, \quad n=1,2,3,\ldots.
@@ -108,4 +108,6 @@ For calculating silicon energy bands, we adopt tight-binding (TB) method as an e
 # References
 
 1. [https://www.wikipedia.org](https://www.wikipedia.org)
-2. David J. Griffiths. *Introduction to Quantum Mechnics*. Prentice Hall, NJ, 1995.
+2. David J. Griffiths. *Introduction to Quantum Mechnics, Chap. 4*. Prentice Hall, NJ, 1995.
+3. David Tong. *Lectures on Quantum Mechanics, Chap. 4*. [http://www.damtp.cam.ac.uk/user/tong/qft.html](http://www.damtp.cam.ac.uk/user/tong/qft.html)
+4. David Tong. *Lectures on Solid State Physics, Chap. 2*. [https://www.damtp.cam.ac.uk/user/tong/solidstate.html](https://www.damtp.cam.ac.uk/user/tong/solidstate.html)
