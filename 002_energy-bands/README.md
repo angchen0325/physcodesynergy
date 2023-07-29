@@ -109,5 +109,5 @@ For calculating silicon energy bands, we adopt tight-binding (TB) method as an e
 
 1. [https://www.wikipedia.org](https://www.wikipedia.org)
 2. David J. Griffiths. *Introduction to Quantum Mechnics, Chap. 4*. Prentice Hall, NJ, 1995.
-3. David Tong. *Lectures on Quantum Mechanics, Chap. 4*. [http://www.damtp.cam.ac.uk/user/tong/qft.html](http://www.damtp.cam.ac.uk/user/tong/qft.html)
-4. David Tong. *Lectures on Solid State Physics, Chap. 2*. [https://www.damtp.cam.ac.uk/user/tong/solidstate.html](https://www.damtp.cam.ac.uk/user/tong/solidstate.html)
+3. David Tong. [*Lectures on Quantum Mechanics, Chap. 4*.](http://www.damtp.cam.ac.uk/user/tong/qft.html)
+4. David Tong. [*Lectures on Solid State Physics, Chap. 2*.](https://www.damtp.cam.ac.uk/user/tong/solidstate.html)
