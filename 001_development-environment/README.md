@@ -89,7 +89,14 @@ plugins=(git
 ```
 
 ### Powerlevel10k theme
-The default theme used is "robbyrussell", which is not very beautiful. We can use the "Powerlevel10k" theme to make it more beautiful. To use the theme, font [`MesloLGS NF`](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) is recommended. After installation, it will be available to all applications on your system. Make sure that `Terminal` and integrated terminal in VScode are using the same font. Then you can open `.zshrc` file by VScode, and fill in the following text near line 20:
+The default theme used is "robbyrussell", which is not very beautiful. We can use the "Powerlevel10k" theme to make it more beautiful:
+
+```bash
+git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git 
+  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+To use the theme, font [`MesloLGS NF`](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) is recommended. After fonts installation, it will be available to all applications on your system. Make sure that `Terminal` and integrated terminal in VScode are using the same font. Then you can open `.zshrc` file by VScode, and fill in the following text near line 20:
 ```bash
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
