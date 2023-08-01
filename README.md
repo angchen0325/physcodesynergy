@@ -57,3 +57,4 @@ And then do the conversion again.
 
 <a href="./002_energy-bands/README.md" alt="Please see the link for details">&#x1F517; 002. Energy bands (07-30-2023)</a>
 
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./002_energy-bands//figs/bz_k_2k.gif "BZ waves")
