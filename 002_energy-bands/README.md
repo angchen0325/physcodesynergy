@@ -87,12 +87,16 @@ Needless to say what. Figure 1 shows what the theorem tells. Left panel plots th
 
 ### Brillouin Zone
 
+xxx
+
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k_2k.gif "BZ waves")
+
 Brillouin Zone (BZ) resides in reciprocal space and almost all the textbooks tell us that the first BZ matters above all. Let's see through it from Nyquist–Shannon sampling theorem. To simplify, we consider the Bloch wave of an electron in one dimension, and sampling happens in the space domain instead of time domain. Thus the sampling rate is decided by the lattice period: $k_s = 2\pi/a$, leading to the important relation for first BZ:
 $$\tag{7}
 k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
-![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k_2k.gif "BZ waves")
+
 
 ## Silicon
 
