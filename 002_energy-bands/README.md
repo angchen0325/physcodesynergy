@@ -77,7 +77,7 @@ Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, 
 
 ### Nyquist–Shannon sampling theorem
 
-![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](./figs/nych_sampling.svg "Nyquist–Shannon sampling")
+![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.svg "Nyquist–Shannon sampling")
 
 Here is one expression of the Nyquist-Shannon sampling theorem [1] to enhance everyone's understanding of the theorem:
 
@@ -87,15 +87,12 @@ Needless to say what. Figure 1 shows what the theorem tells. Left panel plots th
 
 ### Brillouin Zone
 
-xxx
-
-![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k_2k.gif "BZ waves")
-
 Brillouin Zone (BZ) resides in reciprocal space and almost all the textbooks tell us that the first BZ matters above all. Let's see through it from Nyquist–Shannon sampling theorem. To simplify, we consider the Bloch wave of an electron in one dimension, and sampling happens in the space domain instead of time domain. Thus the sampling rate is decided by the lattice period: $k_s = 2\pi/a$, leading to the important relation for first BZ:
 $$\tag{7}
 k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](../figs/002/bz_k_2k.gif "BZ waves")
 
 
 ## Silicon
@@ -108,7 +105,7 @@ There are two basic methods for computing structures and properties of solids:
 The former do not include any empirically or experimentally derived quantities whereas the latter do.
 For calculating silicon energy bands, we adopt tight-binding (TB) method as an example of the latter. TB method is a semi-empirical method, whose basic idea of the tight-binding method is, that one writes the eigenstates of the Hamiltonian in an atomic-like basis set. Then one replaces the exact many-body Hamilton operator with a parameterized Hamilton matrix. For this reason, one commonly does not calculate the explicit form of the basis set. "Atomic-like" means that it has the same symmetry properties as the atomic orbitals.
 
-![Silicon](./figs/silicon_energy_bands.svg "silicon energy bands")
+![Silicon](../figs/002/silicon_energy_bands.svg "silicon energy bands")
 
 ## Graphene
 
