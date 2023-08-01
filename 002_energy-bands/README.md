@@ -105,6 +105,8 @@ There are two basic methods for computing structures and properties of solids:
 The former do not include any empirically or experimentally derived quantities whereas the latter do.
 For calculating silicon energy bands, we adopt tight-binding (TB) method as an example of the latter. TB method is a semi-empirical method, whose basic idea of the tight-binding method is, that one writes the eigenstates of the Hamiltonian in an atomic-like basis set. Then one replaces the exact many-body Hamilton operator with a parameterized Hamilton matrix. For this reason, one commonly does not calculate the explicit form of the basis set. "Atomic-like" means that it has the same symmetry properties as the atomic orbitals.
 
+### Deriving the tight-binding model
+
 ![Silicon](../figs/002/silicon_energy_bands.svg "silicon energy bands")
 
 ## Graphene
