@@ -62,7 +62,11 @@ $$
 
 ## Periodic potential
 
-In the solid state, a few of the loosely bound outermost valence electrons in each atom become detached and roam around throughout the material, no longer subject only to the Coulomb field of a specific "parent" nucleus, but rather to the combined potential of the entire crystal lattice. And thus we have the Bloch's theory, which introduces a *periodic* potential representing the electrical attraction of the regularly spaced, positively charged, nuclei (still ignoring electron-electron
+In the solid state, a few of the loosely bound outermost valence electrons in each atom become detached and roam around throughout the material, no longer subject only to the Coulomb field of a specific "parent" nucleus, but rather to the combined potential of the entire crystal lattice. For an isolated atom, like the hydrogent atom, electron's allowed energy states are discrete, dubbed as "energy levels". When lots of atoms forming solid, because of the Pauli exclusion principle, only two electrons can occupy a given spatial state. As a results, the discrete energy levels are expanded into energy bands, separated by forbidden gaps.
+
+Now, if a band is entirely filled, it takes a relatively large energy to excite an electron, since it has to jump across the forbidden zone. Such materials will be electrical **insulators**. On the other hand, if a band is only partly filled, it takes very little energy to excite an electron, and such materials are typically **conductors**. If you dope an insulator with a few atoms of larger or smaller charges, this puts some "extra" electrons into the next higher band, or creates some holes in the previously filled one, allowing in either case for weak electric currents to flow; such materials are called **semiconductors**.
+
+Band structure is the *signature* of a periodic potential. Next, we have the Bloch's theory, which introduces a *periodic* potential representing the electrical attraction of the regularly spaced, positively charged, nuclei (still ignoring electron-electron
 repulsion): $V(\textbf{r}) = V(\textbf{r}+\textbf{R})$, giving the Bloch function as the solution to Eq. (2):
 
 $$\tag{6}
