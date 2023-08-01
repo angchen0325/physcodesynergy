@@ -92,7 +92,7 @@ $$\tag{7}
 k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
-![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k(0.8)_2k.gif "BZ waves")
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./figs/bz_k_2k.gif "BZ waves")
 
 ## Silicon
 
