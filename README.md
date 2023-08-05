@@ -30,7 +30,7 @@ pandoc --pdf-engine=xelatex -s -V geometry:margin=1.05in --highlight-style breez
     [inputfilename].md -o [outputfilename].pdf
 ```
 
-### Jypyter Notebook to PDF
+### Jupyter Notebook to PDF
 
 ```bash
 jupyter nbconvert --to pdf [inputfilename].ipynb --output [outputfilename].pdf
