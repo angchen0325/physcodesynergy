@@ -77,15 +77,14 @@ Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, 
 
 ### Nyquist–Shannon sampling theorem
 
-<!-- ![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](./nych_sampling.svg "Nyquist–Shannon sampling") -->
-
+![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) *f*<sub>s</sub> = 10*f*. (b) *f*<sub>s</sub> = 2*f*. (c) *f*<sub>s</sub> = 1.3*f*. Here, *f*<sub>s</sub> is the sampling rate and *f* the signal frequency equal to 5 Hz.](./nych_sampling.svg "Nyquist–Shannon sampling")
 
 
 Here is one expression of the Nyquist-Shannon sampling theorem [1] to enhance everyone's understanding of the theorem:
 
 **Theorem** — *If a function $x(t)$ contains no frequencies higher than $B$ hertz, then it can be completely determined from its ordinates at a sequence of points spaced less than $1/(2B)$ seconds apart.* 
 
-![nych_sampling.svg](nych_sampling.svg)
+
 
 Needless to say what. Figure 1 shows what the theorem tells. Left panel plots the original signal $y(t)$, which is a sinusoidal time series with frequency $f=5$ Hz, and the sampled signal $y_s(t)$ with different sampling rates. Right panel plots their corresponding FFT spectra. We can see that when the sampling rate $f_s$ is larger than twice the signal frequency $f$, the original signal can be completely determined from its sampled signal. Otherwise, the original signal cannot be recovered, with a phenomenon called *frequency aliasing*.
 
@@ -97,7 +96,7 @@ k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
 <!-- ![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./bz_k_2k.gif "BZ waves") -->
-![Black points: lattice sites. Black line: BZ wave with *k*<sup>1</sup>. Blue dashed line, BZ wave with.](bz_k_2k.gif "BZ waves")
+![Black points: lattice sites. Black line: BZ wave with *k*<sub>1</sub> = 0.8*π*/*a*. Blue dashed line, BZ wave with *k*<sub>2</sub> = *k*<sub>1</sub> + 2*π*/*a*.](bz_k_2k.gif "BZ waves")
 
 ## Silicon
 
