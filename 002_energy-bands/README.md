@@ -77,7 +77,7 @@ Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, 
 
 ### Nyquist–Shannon sampling theorem
 
-![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) *f*<sub>s</sub> = 10*f*. (b) *f*<sub>s</sub> = 2*f*. (c) *f*<sub>s</sub> = 1.3*f*. Here, *f*<sub>s</sub> is the sampling rate and *f* the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.svg "Nyquist–Shannon sampling")
+![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) *f*<sub>s</sub> = 10*f*. (b) *f*<sub>s</sub> = 2*f*. (c) *f*<sub>s</sub> = 1.3*f*. Here, *f*<sub>s</sub> is the sampling rate and *f* the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.png "Nyquist–Shannon sampling")
 
 
 Here is one expression of the Nyquist-Shannon sampling theorem [1] to enhance everyone's understanding of the theorem:
@@ -109,7 +109,7 @@ For calculating silicon energy bands, we adopt tight-binding (TB) method as an e
 
 ### Deriving the tight-binding model
 
-![Silicon](../figs/002/silicon_energy_bands.svg "silicon energy bands")
+![Silicon](../figs/002/silicon_energy_bands.png "silicon energy bands")
 
 
 ## Graphene
