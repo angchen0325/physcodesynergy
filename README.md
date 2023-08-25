@@ -10,7 +10,7 @@ To fully exploit physics and coding synergy, we're going to have a monthly meeti
 2. The focus of the meetings will be on programming as a tool to solve specific research-related problems: Programming is likened to a shovel, while research is the gold mine.
 3. In the first six months, the meetings will primarily cover the fundamentals of physics as the gold mine, teaching participants to use tools like `python` as shovels. After six months, we will progress to using advanced shovels: `python` + `artificial intelligence (AI)`.
 
-![Physics and Coding Synergy: Here we use a picture of fractal to imply such ethereal synergy.](./figs/fractal.jpg "Physics and coding synergy")
+![Physics and Coding Synergy: Here we use a picture of fractal to imply such ethereal synergy.](./fractal.png "Physics and coding synergy")
 
 ## Documents
 
