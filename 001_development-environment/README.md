@@ -107,7 +107,7 @@ p10k configure
 ```
 Here, I will use an image to demonstrate the successful configuration on all three platforms; see Figure 1.
 
-![Sucessful configuration of the final prompt if you have the same taste as Ang. Platforms from top to bottom: Linux(Ubuntu), MacOS, Windows.](./p10k_theme_platforms.png "p10k theme")
+![Sucessful configuration of the final prompt if you have the same taste as Ang. Platforms from top to bottom: Linux(Ubuntu), MacOS, Windows.](../figs/001/p10k_theme_platforms.png "p10k theme")
 
 
 ## Python3 deployment
