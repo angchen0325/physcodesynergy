@@ -77,7 +77,7 @@ Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, 
 
 ### Nyquist–Shannon sampling theorem
 
-![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.svg "Nyquist–Shannon sampling")
+![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](./nych_sampling.svg "Nyquist–Shannon sampling")
 
 Here is one expression of the Nyquist-Shannon sampling theorem [1] to enhance everyone's understanding of the theorem:
 
@@ -92,7 +92,7 @@ $$\tag{7}
 k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
-![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](../figs/002/bz_k_2k.gif "BZ waves")
+![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line: BZ wave with $k_2=k_1+2\pi/a$.](./bz_k_2k.gif "BZ waves")
 
 
 ## Silicon
@@ -107,7 +107,7 @@ For calculating silicon energy bands, we adopt tight-binding (TB) method as an e
 
 ### Deriving the tight-binding model
 
-![Silicon](../figs/002/silicon_energy_bands.svg "silicon energy bands")
+![Silicon](./silicon_energy_bands.svg "silicon energy bands")
 
 ## Graphene
 
