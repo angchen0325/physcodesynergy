@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
-	 id="svg2" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 623.6 358.3"
 	 style="enable-background:new 0 0 623.6 358.3;" xml:space="preserve">
 <style type="text/css">
@@ -24,6 +24,7 @@
 	.st16{fill:none;stroke:#B60000;stroke-miterlimit:1;}
 	.st17{fill:#204A87;stroke:#204A87;stroke-width:3;stroke-miterlimit:1;}
 	.st18{font-family:'Helvetica-Oblique';}
+	.st19{font-size:6.996px;}
 </style>
 <sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" id="base" inkscape:current-layer="g5737" inkscape:cx="-14.142136" inkscape:cy="411.8897" inkscape:deskcolor="#d1d1d1" inkscape:document-units="px" inkscape:object-nodes="true" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:showpageshadow="2" inkscape:snap-global="false" inkscape:snap-intersection-line-segments="false" inkscape:window-height="1361" inkscape:window-maximized="1" inkscape:window-width="2560" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:zoom="1.4142136" objecttolerance="10000" pagecolor="#ffffff" showgrid="false">
 	<inkscape:grid  enabled="true" id="grid4524" type="xygrid" visible="true"></inkscape:grid>
@@ -36,10 +37,10 @@
 <g id="layer1" transform="translate(-13.91304,-12.940308)" inkscape:groupmode="layer" inkscape:label="Layer 1">
 	
 		<path id="path4459" sodipodi:cx="1213.4388" sodipodi:cy="436.75766" sodipodi:rx="0" sodipodi:ry="0" sodipodi:type="arc" class="st0" d="
-		M1213.4,395.5L1213.4,395.5L1213.4,395.5z"/>
+		M1213.4,37.2L1213.4,37.2L1213.4,37.2z"/>
 	
 		<path id="path5005" sodipodi:cx="1195.5312" sodipodi:cy="511.69421" sodipodi:rx="0" sodipodi:ry="0" sodipodi:type="arc" class="st1" d="
-		M1195.5,470.5L1195.5,470.5L1195.5,470.5z"/>
+		M1195.5,112.2L1195.5,112.2L1195.5,112.2z"/>
 </g>
 <path id="path4807" inkscape:label="Face" class="st2" d="M178.1,238l13.2,23.8l-13.2,48.6l-13.2-23.8L178.1,238z"/>
 <path id="path4815" inkscape:label="Face" class="st2" d="M115.5,294.5l-36.2-40.7l13.2-48.6l49.4-7.9l36.2,40.7l-13.2,48.6
@@ -47,7 +48,7 @@
 <path id="path4805" inkscape:label="Face" class="st2" d="M92.4,350.1l-23-16.9l-36.2-40.7L20,268.6l23,16.9l36.2,40.7L92.4,350.1z"
 	/>
 <path id="path4809" inkscape:label="Face" class="st2" d="M79.2,326.2L43,285.5l36.2-31.7l36.2,40.7L79.2,326.2z"/>
-<path id="path4811" inkscape:label="Face" class="st2" d="M164.9,286.6l13.2,23.8l-36.2,31.7l-49.4,7.9l-13.2-23.8l36.2-31.7
+<path id="path4811" inkscape:label="Face" class="st2" d="M164.9,286.6l13.2,23.8l-36.2,31.7L92.5,350l-13.2-23.8l36.2-31.7
 	L164.9,286.6z"/>
 <path id="path4813" inkscape:label="Face" class="st2" d="M92.4,205.1l-23-16.9l49.4-7.9l23,16.9L92.4,205.1z"/>
 <path id="path4817" inkscape:label="Face" class="st2" d="M79.2,253.8L43,285.5l-23-16.9L33.1,220l36.2-31.7l23,16.9L79.2,253.8z"/>
@@ -116,19 +117,19 @@
 <g>
 	
 		<path id="path4984" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st15" d="
-		M140.9,290.6c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C140.5,289.8,140.9,290.1,140.9,290.6z"/>
+		M140.9,290.6c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C140.5,289.8,140.9,290.1,140.9,290.6z"/>
 	
 		<path id="path4986" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st15" d="
-		M165.5,286.5c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C165.2,285.8,165.5,286.1,165.5,286.5z"/>
+		M165.5,286.5c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7S165.5,286.1,165.5,286.5z"/>
 	
 		<path id="path5012" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st15" d="
-		M129.5,246.2c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7C129.2,245.4,129.5,245.8,129.5,246.2z"/>
+		M129.5,246.2c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C129.2,245.4,129.5,245.8,129.5,246.2z"/>
 	
 		<path id="path5014" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st15" d="
-		M172.1,262.4c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C171.8,261.6,172.1,262,172.1,262.4z"/>
+		M172.1,262.4c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C171.8,261.6,172.1,262,172.1,262.4z"/>
 	
 		<path id="path5003" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st15" d="
-		M178.5,274.2c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C178.1,273.5,178.5,273.8,178.5,274.2z"/>
+		M178.5,274.2c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C178.1,273.5,178.5,273.8,178.5,274.2z"/>
 </g>
 <g>
 	<path id="path4453" class="st16" d="M128.6,245.9l42.9,16.4"/>
@@ -137,11 +138,11 @@
 <path id="path5790" sodipodi:cx="1276.5045" sodipodi:cy="589.82593" sodipodi:rx="2.7400389" sodipodi:ry="2.7400389" sodipodi:type="arc" class="st17" d="
 	M106.4,265.1c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7C106,264.4,106.4,264.7,106.4,265.1z"/>
 <text transform="matrix(1 0 0 1 72.6722 309.3156)" class="st9 st18 st8">k</text>
-<text transform="matrix(0.583 0 0 0.583 78.6722 310.7234)" class="st9 st18 st8">x</text>
+<text transform="matrix(1 0 0 1 78.6724 310.7238)" class="st9 st18 st19">x</text>
 <text transform="matrix(1 0 0 1 95.0033 174.0627)" class="st9 st18 st8">k</text>
-<text transform="matrix(0.583 0 0 0.583 101.0033 175.4704)" class="st9 st18 st8">z</text>
+<text transform="matrix(1 0 0 1 101.0034 175.4708)" class="st9 st18 st19">z</text>
 <text transform="matrix(1 0 0 1 193.679 289.8127)" class="st9 st18 st8">k</text>
-<text transform="matrix(0.583 0 0 0.583 199.679 291.2204)" class="st9 st18 st8">y</text>
+<text transform="matrix(1 0 0 1 199.6792 291.2208)" class="st9 st18 st19">y</text>
 <text transform="matrix(1 0 0 1 9.3767 169.0617)" class="st7 st8">(b)</text>
 <text transform="matrix(1 0 0 1 9.3767 16.4855)" class="st7 st8">(a)</text>
 <text transform="matrix(1 0 0 1 225.7936 16.4855)" class="st7 st8">(c)</text>
