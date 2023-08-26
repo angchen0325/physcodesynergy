@@ -76,7 +76,10 @@ $$
 Here $\textbf{k}$ is crystal momentum vector. To fully understand energy bands, $\textbf{k}$ is the key point but also confusing. We digress somewhat to the famous theorem in informatics: Nyquist–Shannon sampling theorem.
 
 ### Nyquist–Shannon sampling theorem
+<!-- For pdf generation -->
+<!-- ![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) $f_s=10f$. (b) $f_s=2f$. (c) $f_s=1.3f$. Here, $f_s$ is the sampling rate and $f$ the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.png "Nyquist–Shannon sampling") -->
 
+<!-- For github presentation -->
 ![Sinusoidal time series for verifying Nyquist–Shannon sampling theorem: (a) *f*<sub>s</sub> = 10*f*. (b) *f*<sub>s</sub> = 2*f*. (c) *f*<sub>s</sub> = 1.3*f*. Here, *f*<sub>s</sub> is the sampling rate and *f* the signal frequency equal to 5 Hz.](../figs/002/nych_sampling.png "Nyquist–Shannon sampling")
 
 
@@ -95,7 +98,11 @@ $$\tag{7}
 k_s\ge2|k| \longrightarrow -\pi/a\le k\le\pi/a.
 $$ 
 
-![Black points: lattice sites. Black line: BZ wave with *k*<sub>1</sub> = 0.8pi/*a*. Blue dashed line, BZ wave with *k*<sub>2</sub> = *k*<sub>1</sub> + 2pi/*a*.](../figs/002//bz_k_2k.gif "BZ waves")
+<!-- For pdf generation -->
+<!-- ![Black points: lattice sites. Black line: BZ wave with $k_1=0.8\pi/a$. Blue dashed line, BZ wave with $k_2=k_1+2\pi/a$.](../figs/002/bz_k_2k.gif "BZ waves") -->
+
+<!-- For github presentation -->
+![Black points: lattice sites. Black line: BZ wave with *k*<sub>1</sub> = 0.8pi/*a*. Blue dashed line, BZ wave with *k*<sub>2</sub> = *k*<sub>1</sub> + 2pi/*a*.](../figs/002/bz_k_2k.gif "BZ waves")
 
 ## Silicon
 
