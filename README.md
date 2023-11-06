@@ -57,4 +57,4 @@ And then do the conversion again.
 
 <a href="./002_energy-bands/README.md" alt="Please see the link for details">:link: 002. Energy bands (07-30-2023)</a>
 
-<a href="./003_scientific-data-visualization/README.md" alt="Please see the link for details">:link: 002. Energy bands (11-02-2023)</a>
+<a href="./003_scientific-data-visualization/README.md" alt="Please see the link for details">:link: 003. Scientific data visualization (11-02-2023)</a>
