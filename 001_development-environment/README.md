@@ -1,4 +1,4 @@
-Author: **Ang Chen** | Email: chenang@outlook.com | Date: 06-23-2023 | Online monthly meeting @BIT
+Author: **Ang Chen** | Title: Development Environment | Date: 08-28-2024 | Version: 1.0.0
 
 # Contents
 - [Contents](#contents)
